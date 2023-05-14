@@ -1,0 +1,26 @@
+{
+    "version": "3.1.0.21789",
+    "##": [
+        "生成快捷方式",
+        "添加到快速启动栏",
+        "开机自动启动"
+    ],
+    "description": "TIM，专注团队沟通协作，支持云文件、在线文档、邮件收发、日程等办公功能",
+    "license": "https://ti.qq.com/tim/serverinfo.html",
+    "homepage": "https://office.qq.com",
+    "url": "https://dldir1.qq.com/qqfile/qq/TIM3.1.0/TIM3.1.0.21789.exe#/dl.7z",
+    "hash": "d9f1640bb4c65ef22a153299ba830110d029b6cbd34d1262f110ca94eb73097a",
+    "bin": [
+        
+    ],
+    "checkver": {
+        "url": "https://qzonestyle.gtimg.cn/qzone/qzactStatics/configSystem/data/1605/config1.js",
+        "regex": "\"pcLink\":\"https://dldir1.qq.com/qqfile/qq/TIM[\\d.]+/TIM([\\d.]+).exe"
+    },
+    "autoupdate": {
+        "url": "https://dldir1.qq.com/qqfile/qq/TIM$matchHead/TIM$version.exe#/dl.7z",
+        "hash": {
+            "mode": "download"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+﻿{
+    "version": "9.3.7",
+    "description": "QQ PC版",
+    "license": "Copyright © 1998-2020 Tencent. All Rights Reserved. 腾讯公司 版权所有",
+    "url": "https://down.qq.com/qqweb/PCQQ/PCQQ_EXE/PCQQ2020.exe#/dl.7z",
+    "homepage": "https://im.qq.com",
+    "bin": [
+        [
+            "bin\\QQ.exe",
+            "qq"
+        ]
+    ],
+    "hash": "160974fc256de2b426d36385b2ef9e6149babb702e38aa6a9e93fc9b54fadb34",
+    "checkver": {
+        "url": "https://im.qq.com/download/",
+        "regex": "([\\d.]+)<sup>"
+    },
+    "autoupdate": {
+        "url": "https://down.qq.com/qqweb/PCQQ/PCQQ_EXE/PCQQ2020.exe#/dl.7z",
+        "hash": {
+            "mode": "download"
+        }
+    }
+}
