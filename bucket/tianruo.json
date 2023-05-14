@@ -1,0 +1,20 @@
+{
+    "version": "5.0",
+    "description": "天若ORC",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://github.com/HeiHeiHeMianMa/tianruoOCR/releases/tag/main"
+    },
+    "url": "https://github.com/HeiHeiHeMianMa/tianruoOCR/releases/download/main/Release.7z#/dl.7z",
+    "homepage": "https://github.com/HeiHeiHeMianMa/tianruoOCR/releases/tag/main",
+    "bin": [
+        [
+            "天若OCR文字识别.exe"
+        ]
+    ],
+    "hash": "3806037cbf61cef1eaf69ced71c4f9bf6cf4464ab12ab15acbc1d5d58e8180d0",
+    
+    "post_install": [
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    ]
+}
